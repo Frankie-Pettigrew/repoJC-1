@@ -7,10 +7,12 @@ body{
 }
 
 header{
+    margin-top: 0;
     background-color: #333333;
 }
 
 h1{
+    margin-top: 0;
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
@@ -42,12 +44,10 @@ p{
 }
 
 #main-bio{
-    width: 75%;
+    width: 70%;
 }
 
 #contact-info{
-    margin-top: 0 auto;
-    margin-right: 0px;
     width:30%;
 }
 
