@@ -2,6 +2,8 @@ body{
     background-color: #efeee7;
     margin: 0;
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 150%;
 }
 
 header{
@@ -25,9 +27,28 @@ h2{
     font-size: 24px;
 }
 
+p{
+    width: 50%;
+}
+
 #bio-image{
     max-width: 200px;
     max-width: 200px;
+    margin-right: 20px;
+}
+
+#main-bio, #contact-info, #bio-image{
+    float: left;
+}
+
+#main-bio{
+    width: 75%;
+}
+
+#contact-info{
+    margin-top: 0 auto;
+    margin-right: 0px;
+    width:30%;
 }
 
 
